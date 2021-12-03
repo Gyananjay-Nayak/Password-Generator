@@ -1,0 +1,120 @@
+
+*{
+    margin: 1px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* background: linear-gradient(to right bottom, red, blue); */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Logo{
+    width: 80px;
+    float: left;
+    padding: 20px;
+}
+#LogoText{
+    width: 500px;
+    float: left;
+    padding: 12px;
+}
+
+.container {
+    background-color: burlywood;
+    padding: 20px;
+    border-radius: 5px;
+    width: 370px;
+}
+
+.form-control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: black;
+    border-bottom: 1px solid snow ;
+}
+
+.form-control label{
+    cursor: pointer;
+}
+
+.output input{
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    border:none;
+    font-size: 18px;
+    background-color:rgb(233, 221, 199);
+}
+
+
+.form-control input[type=number]{
+    padding: 4px 3px;
+    background-color:rgb(233, 221, 199);
+    outline: none;
+    border:none;
+    border-radius: 3px;
+}
+
+.output button {
+    position:relative;
+    cursor: pointer;
+    padding: 3px 5px;
+    outline: none;
+    border:none;
+    background-color:rgb(199, 199, 199);
+    border-radius:  0 4px 4px 0;;
+}
+
+.output {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#strenght{
+    padding: 2px 1px;
+    background-color:rgb(233, 221, 199);
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+#submit {
+    width: 100%;
+    padding: 14px;
+    font-size: 18px;
+    color: green;
+    background-color:rgb(199, 199, 199);
+    margin-top: 10px;
+    font-weight: 400;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    transition: all .3s;
+}
+
+#submit:hover{
+    background-color:rgb(233, 221, 199);
+}
+
+#submit:active {
+    background-color: rgb(199, 200, 199);
+}
